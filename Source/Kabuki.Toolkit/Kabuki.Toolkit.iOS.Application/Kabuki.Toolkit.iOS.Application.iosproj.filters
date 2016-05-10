@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework References">
+      <UniqueIdentifier>{937142AA-24D8-438C-ABAD-457275E01196}</UniqueIdentifier>
+      <Extensions>framework</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Kabuki.Toolkit.iOS">
+      <UniqueIdentifier>{25af449b-1b2d-4e5b-a3c2-89f27f3537fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kabuki.Toolkit.iOS\Images.xcassets">
+      <UniqueIdentifier>{e9f06a20-0246-448d-879c-ee12deee33e4}</UniqueIdentifier>
+      <Extensions>Kabuki.Toolkit.iOS\Images.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="Kabuki.Toolkit.iOS\Images.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{a2e1499b-5a9b-458f-ac09-65350e29743c}</UniqueIdentifier>
+      <Extensions>Kabuki.Toolkit.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="Kabuki.Toolkit.iOS\Supporting Files">
+      <UniqueIdentifier>{60282373-1347-4901-82d5-c919a068f2ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kabuki.Toolkit.iOS\AppDelegate.mm">
+      <Filter>Kabuki.Toolkit.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Kabuki.Toolkit.iOS\GameViewController.mm">
+      <Filter>Kabuki.Toolkit.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Kabuki.Toolkit.iOS\main.mm">
+      <Filter>Kabuki.Toolkit.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClInclude Include="Kabuki.Toolkit.iOS\AppDelegate.h">
+      <Filter>Kabuki.Toolkit.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="Kabuki.Toolkit.iOS\GameViewController.h">
+      <Filter>Kabuki.Toolkit.iOS</Filter>
+    </ClInclude>
+    <Content Include="Kabuki.Toolkit.iOS\Base.lproj\Main.storyboard">
+      <Filter>Kabuki.Toolkit.iOS</Filter>
+    </Content>
+    <Content Include="Kabuki.Toolkit.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>Kabuki.Toolkit.iOS\Images.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <FrameworkReference Include="System\Library\Frameworks\GLKit.framework">
+      <Filter>Framework References</Filter>
+    </FrameworkReference>
+    <FrameworkReference Include="System\Library\Frameworks\OpenGLES.framework">
+      <Filter>Framework References</Filter>
+    </FrameworkReference>
+    <FrameworkReference Include="System\Library\Frameworks\UIKit.framework">
+      <Filter>Framework References</Filter>
+    </FrameworkReference>
+    <None Include="Kabuki.Toolkit.iOS\Info.plist">
+      <Filter>Kabuki.Toolkit.iOS\Supporting Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

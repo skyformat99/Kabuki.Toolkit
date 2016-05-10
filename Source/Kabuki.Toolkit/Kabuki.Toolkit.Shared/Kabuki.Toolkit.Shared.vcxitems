@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{aeb56caa-770f-4f7a-9d52-d54bc04fe320}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MathHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Bezier.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Entity.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Math.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Point.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\PolarPoint.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Rectangle.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Vector.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\AnimatedImage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Animation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Caption.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Cell.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Colormap.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Color.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Colors.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Entity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Font.Gfx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Font.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Glyph.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Layer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Oval.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Pipeline.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\String.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SimpleRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SimpleRenderer.cpp" />
+  </ItemGroup>
+</Project>

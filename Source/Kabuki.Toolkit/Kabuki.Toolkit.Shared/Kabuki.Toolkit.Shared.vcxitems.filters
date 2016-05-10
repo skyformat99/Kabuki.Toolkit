@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SimpleRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MathHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SimpleRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Point.hpp">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Vector.hpp">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Rectangle.hpp">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Entity.hpp">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\PolarPoint.hpp">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Math.h">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_2D\Bezier.hpp">
+      <Filter>Public\_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Colormap.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Entity.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Font.Gfx.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Font.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Glyph.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Image.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Layer.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Oval.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Pipeline.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\String.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\AnimatedImage.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Animation.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Caption.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Cell.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Color.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Public\_G\Colors.h">
+      <Filter>Public\_G</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{9312e73f-a059-4292-8301-71287b75c10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\_2D">
+      <UniqueIdentifier>{7421a640-dcdb-4507-9e4a-ea9abdc8341e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\_G">
+      <UniqueIdentifier>{294346a6-8cf4-46eb-a151-e346038c55a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
