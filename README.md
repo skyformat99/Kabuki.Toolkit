@@ -1,16 +1,23 @@
 # Kabuki.Toolkit #
-Kabuki.Toolkit is a lightweight cross-platform modern C++ SDK for making 2D apps and games in Visual Studio 2015. Kabuki.Toolkit is part of the Kabuki-SDK, which also contains Kabuki.Theater for 3D. Right now it doesn't work because everything is in the process of being ported and overhauled.
+The Kabuki.Toolkit is an attempt to unify the best C++ libraries into a single unified namesapce. The toolkit is written with C++17 in mind, but uses UTF8++ and Boost for the time being. All libraries are getting stripped of any junk, ran through CSharper++, and all unit tests unified.
 
 # Modules #
-* _2D (Math and Geometry)
-* _Audio
-* _App
-* _G (Graphics)
-* _GUI
-* _Time
+| Name | Description |
+|------|:-----------:|
+| _2D | 3D Geometry.|
+| _3D | 2D Geometry.|
+| _Data | Data Structures.|
+| _Doc | Text and document utilities.|
+| _App | Application framework.|
+| _G | Generic graphics.|
+| _GUI | GUI toolkit.|
+| _Math | Math/DSP.|
+| _MM | Audio, MIDI, and Video engines.|
+| _Test | Unit testing framework.|
+| _Word | Time/Data utilities (GPS in the future.).|
 
 # License #
-Kabuki.Toolkit is distributed under the Apache 2.0 license. You may obtain a copy of the License at:
+Kabuki.Toolkit is distributed multiple licenses. Copies of the original copyright notices can be found in the Copyright folder. Original code is licensed under the Apache 2.0 license. You may obtain a copy of the License at:
 [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 # Included Libraries #

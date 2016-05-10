@@ -23,7 +23,7 @@ namespace _GUI2D.Menues
             base ()
         {  
         }
-    
+		
         AdjustableFileFilter (string extension) : 
             base (extension, null)
         {
