@@ -1,12 +1,12 @@
 /** Underscore
-    @file       ~/Text/Grammer.cs
+    @file       /.../Source/Kabuki.Toolkit/Kabuki.Toolkit.Shared/_Doc/Grammer.cs
     @author     Cale McCollough
     @copyright  Copyright 2016 Blue Storm Engineering ©
     @license    http://www.apache.org/licenses/LICENSE-2.0
     @brief      This file contains the _. class.
 */
 
-namespace _.Text
+namespace _Doc
 {
     /** Used for settings rules to text grammer.
         Useful for rules for passwords.

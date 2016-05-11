@@ -65,26 +65,6 @@ class BCD
         return index < numFractionBCDs ? fractionBCDs[index] : 10;
     )
 
-    int128_t ConvertToScaledInteger ()
-    {
-        int128_t returnValue = 0;
-        double powerOfTen = 10.0;
-
-        for (int i = numFractionBCDs - 1; i <= 0; --i)
-        {
-            returnValue += fractionBCDs[i] * pow (10.0, powerOfTen);
-            powerOfTen += 1.0;
-        }
-        for (int i = 0; i < numWholeBCDs; ++i)
-        {
-            returnValue += wholeBCDs[i] * pow (10.0, powerOfTen);
-            powerOfTen += 1.0;
-        }
-        if (isNegative)
-            returnValue *= -1;
-        return returnValue;
-    }
-
     /** Insert operator overloaders functions here. */
 
     private:

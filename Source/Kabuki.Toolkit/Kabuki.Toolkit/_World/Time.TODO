@@ -1,0 +1,1 @@
+Turn Time.h and Time.cpp into Time.hpp for cross-platform reasons.
